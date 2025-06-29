@@ -1,4 +1,4 @@
 # Functional_Clock_Project
-This projects is written in Verilog. It implements a digital clock along with a timer and stopwatch in a DE10 Lite board.
+This projects is written in Verilog. It implements a digital clock along with a timer and stopwatch in a DE10 Lite board. It was a project I completed for my EECS 3201 class.
 
 The design acts as a finite state machine with three states. There are three modes/states in this design: the timer/alarm, the stopwatch, and the clock. To switch between the states, the user can press button 0 (this top button) on the DE10-Lite board. When the design is in the timer mode, it can switch to the stopwatch mode. When acting as a stopwatch, the user can switch to the clock state. If the user is in the clock state, they can move to the timer state. The first three LEDs are used to signify which state the board is currently in (LED0 for timer, LED1 for stopwatch, and LED2 for clock). Button 1 (the bottom button) allows the user to reset the number that is currently being displayed. More information on that would be given when I explain the individual modes.
